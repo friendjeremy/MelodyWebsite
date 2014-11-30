@@ -1,8 +1,14 @@
 app.controller("ContactController",  function($scope){
 
     $scope.person = {
-        firstName: "contact",
-        lastName: "us"
+        firstName: "",
+        lastName: "",
+        eMail: "",
+        phone: "",
+        subject: "",
+        message: ""
+
+
     };
 });
  
